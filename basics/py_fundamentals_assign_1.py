@@ -10,6 +10,13 @@ player_level = 10
 player_health = 100
 player_stamina = 100
 is_alive = True
+
+player_username = "ksfrev"
+player_password = "123"
+
+
+
+
 #f-string
 print("Section 1 output:")
 print(f"{player_name} a.k.a {player_title} is on level {player_level} with {player_health} health")
@@ -46,3 +53,10 @@ elif(player_class == "Archer"):
 
 elif(player_class == "Mage"):
     print(f"Mage Class Detected")
+#---------------------------
+#Section 6 - Login System Check
+#---------------------------
+if((player_username == "ksfrev") & (player_password =="123")):
+    print("Login Successful")
+else:
+    print("Login Failed")
