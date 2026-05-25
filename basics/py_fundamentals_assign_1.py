@@ -56,7 +56,25 @@ elif(player_class == "Mage"):
 #---------------------------
 #Section 6 - Login System Check
 #---------------------------
+print("Section 6 output:")
 if((player_username == "ksfrev") & (player_password =="123")):
     print("Login Successful")
 else:
     print("Login Failed")
+
+#---------------------------
+#Section 7  - Type Check
+#---------------------------
+print("Section 7 output:")
+
+print(type(player_class))
+print(f"player_name has a value of {player_name} and has type of {type(player_name)}")
+
+#---------------------------
+#Section Bonus - Input from user
+#---------------------------
+print("Bonus Section output:")
+
+player_username = input("Enter your username: ")
+
+print(f"your username is {player_username}")
