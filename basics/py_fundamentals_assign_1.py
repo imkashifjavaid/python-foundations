@@ -5,6 +5,7 @@
 #variables will be used in more than one sections for this assignment
 player_name = "Kashif"
 player_title = "Revealer"
+player_class ="Knight" #Mage, warrior, Archer
 player_level = 10
 player_health = 100
 player_stamina = 100
@@ -32,3 +33,16 @@ elif(player_level >= 5):
     print(f"{player_name}  is on Medium Level")
 else:
     print(f"{player_name}  is on Beginner Level")
+#---------------------------
+#Section 4 - Level Rank System
+#---------------------------
+print("Section 4 output:")
+
+if(player_class == "Knight"):
+    print(f"Knight Class Detected")
+
+elif(player_class == "Archer"):
+    print(f"Archer Class Detected")
+
+elif(player_class == "Mage"):
+    print(f"Mage Class Detected")
