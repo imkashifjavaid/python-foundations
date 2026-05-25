@@ -1,4 +1,4 @@
-
+#-------------------------------Self Assignment 1-------------------------------#
 #---------------------------
 #Section 1 - Player Information (variable practices and f-strings)
 #---------------------------
@@ -13,9 +13,6 @@ is_alive = True
 
 player_username = "ksfrev"
 player_password = "123"
-
-
-
 
 #f-string
 print("Section 1 output:")
@@ -54,6 +51,19 @@ elif(player_class == "Archer"):
 elif(player_class == "Mage"):
     print(f"Mage Class Detected")
 #---------------------------
+#Section 5 - Comparison Operators along with f-strings
+#---------------------------
+print("Section 5 operators:")
+numx1 = 5
+numx2 = 10
+print(f"Is {numx1} greater than {numx2}? {numx1 > numx2}")
+print(f"Is {numx1} less than {numx2}? {numx1 < numx2}")
+print(f"Is {numx1} equal than {numx2}? {numx1 == numx2}")
+print(f"Is {numx1} not equal than {numx2}? {numx1 != numx2}")
+print(f"Is {numx1} greater than or equal to {numx2}? {numx1 >= numx2}")
+print(f"Is {numx1} less than or equal to {numx2}? {numx1 <= numx2}")
+
+#---------------------------
 #Section 6 - Login System Check
 #---------------------------
 print("Section 6 output:")
@@ -78,3 +88,5 @@ print("Bonus Section output:")
 player_username = input("Enter your username: ")
 
 print(f"your username is {player_username}")
+
+#-------------------------------End of Assignment-------------------------------#
