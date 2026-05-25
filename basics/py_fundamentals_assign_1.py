@@ -5,7 +5,7 @@
 #variables will be used in more than one sections for this assignment
 player_name = "Kashif"
 player_title = "Revealer"
-player_level = 1
+player_level = 10
 player_health = 100
 player_stamina = 100
 is_alive = True
@@ -22,3 +22,13 @@ if(player_health <= 0):
     print(f"{player_name} died")
 else:
     print(f"{player_name} is alive")
+#---------------------------
+#Section 3 - Level Rank System
+#---------------------------
+print("Section 3 output:")
+if(player_level >= 10):
+    print(f"{player_name} is on Advance Level")
+elif(player_level >= 5):
+    print(f"{player_name}  is on Medium Level")
+else:
+    print(f"{player_name}  is on Beginner Level")
