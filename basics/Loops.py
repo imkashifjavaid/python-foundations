@@ -57,10 +57,11 @@ for members in Party_Member_Names:
 for count, employee in enumerate(employees, start= 1):
     print(f"Employee ID {count} : {employee}")"""
 
-"""password = 123
-#password = input("enter your password")
+password = ""
 
-while password != 123:"""
-password = input(" enter your password: ")
-print(password)
-    
+while password != "123":
+   password = input("enter password: ")
+   if password == "123":
+       print("correct password")
+   else:
+       print("wrong password")
