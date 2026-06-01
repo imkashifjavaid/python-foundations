@@ -47,7 +47,7 @@ for members in Party_Member_Names:
     count = count + 1"""
 
 
-employees = [
+"""employees = [
     "Ali",
     "Sara",
     "Ahmed",
@@ -55,4 +55,12 @@ employees = [
     "Usman"
 ]
 for count, employee in enumerate(employees, start= 1):
-    print(f"Employee ID {count} : {employee}")
+    print(f"Employee ID {count} : {employee}")"""
+
+"""password = 123
+#password = input("enter your password")
+
+while password != 123:"""
+password = input(" enter your password: ")
+print(password)
+    
