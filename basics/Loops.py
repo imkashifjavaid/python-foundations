@@ -39,9 +39,20 @@ Party Member 3: Sara
 Party Member 4: Ahmed
 """
 
-Party_Member_Names = ["Ali", "Sara", "Ahmed"]
+"""Party_Member_Names = ["Ali", "Sara", "Ahmed"]
 count = 1
 
 for members in Party_Member_Names:
     print(f"Party Member {count} : {members}")
-    count = count + 1
+    count = count + 1"""
+
+
+employees = [
+    "Ali",
+    "Sara",
+    "Ahmed",
+    "Fatima",
+    "Usman"
+]
+for count, employee in enumerate(employees, start= 1):
+    print(f"Employee ID {count} : {employee}")
