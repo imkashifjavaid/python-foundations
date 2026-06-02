@@ -9,5 +9,12 @@ employees = [
     "Olivia Taylor"
 ]
 
-#* 1_Printing total employees
+#* Step 1 — Printing total employees
 print(len(employees))
+print(f"Total number of employees: {len(employees)}")
+
+#* Step 2 — Replace First Employee
+#*Requirement: John Smith -> Kashif
+print(f"Before Replacing Index 0: {employees}")
+employees[0] = "Kashif"
+print(f"After Replacing Index 0: {employees}")
