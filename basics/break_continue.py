@@ -11,10 +11,7 @@ for employee in employees:
     print(f"Checking {employee} ...")
 
 if found == False:
-    print("Employee never found")
+    print("Employee never found") 
 
-
-
-
-#print("Employee not found")
+# *!? print("Employee not found")
 
