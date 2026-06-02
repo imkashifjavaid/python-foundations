@@ -1,3 +1,5 @@
+'''
+# * Continue Statement Work
 employees  = ["Kashif", "Revealer", "Kash", "Revx"]
 # want to search for: Revealer
 #for, if, break
@@ -12,6 +14,23 @@ for employee in employees:
 
 if found == False:
     print("Employee never found") 
+'''
 
-# *!? print("Employee not found")
+# * Continue Statement Work
+employees = [
+    "Ali", "", "Sara", "", "Ahmed", "Fatima", ""]
 
+"""
+#? Continue Problem Statement 1
+Expected Output
+Processing Employee: Ali
+Processing Employee: Sara
+Processing Employee: Ahmed
+Processing Employee: Fatima
+"""
+
+#? Continue Problem Statement 1 Solution
+for employee  in employees:
+    if employee  == "":
+        continue
+    print(f"Processing Employee: {employee }")
