@@ -28,4 +28,13 @@ employee3 = {
     "is_active": False
 }
 all_employees = [employee1, employee2, employee3]
-print(all_employees)
+# print(all_employees)
+#? Task 1: Print all employee names using loop
+'''
+for employee in all_employees:
+    print(f"employee name: {employee['employee_name']}")
+'''
+
+#? Task 2: Print all employee names using loop, enumerate
+for count, employee in enumerate(all_employees, start= 1):
+    print(f"Employee {count} {employee['employee_name']}")
