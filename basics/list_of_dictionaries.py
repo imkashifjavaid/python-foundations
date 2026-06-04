@@ -35,6 +35,20 @@ for employee in all_employees:
     print(f"employee name: {employee['employee_name']}")
 '''
 
-#? Task 2: Print all employee names using loop, enumerate
+'''#? Task 2: Print all employee names using loop, enumerate
 for count, employee in enumerate(all_employees, start= 1):
-    print(f"Employee {count} {employee['employee_name']}")
+    print(f"Employee {count} {employee['employee_name']}")'''
+
+'''    #? Task 3: Print all employee salaries
+for employee in all_employees:
+    print(employee['salary'])
+'''
+
+'''    #? Task 3: Print all employee salaries using enumerate
+for index, employee in enumerate(all_employees,start= 1):
+        print(index ,employee['salary'] )
+'''
+
+#? Task 4: Print employee name, salary and location
+for employee in all_employees:
+    print(f"Employee Name: {employee['employee_name']} \nSalary:{employee['salary']} \nLocation: {employee['location']}\n")
