@@ -26,3 +26,12 @@ def sumx(a,b,c):
     return 
     
 sumx(2,2,2)
+
+
+
+
+def show_employee(Name, Dep):
+    print(f"Employee Name: {Name}")
+    print(f"Department: {Dep}")
+
+show_employee("Kashif Javaid", "Game Dev")
