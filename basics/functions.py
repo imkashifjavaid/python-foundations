@@ -70,3 +70,16 @@ print(x) # 12 will be printed
 
 #final output: 12
 #            : 12
+
+
+# calc areq
+
+def calculate_area(length, width):
+    return length * width
+
+area1 = calculate_area(5, 4)
+area2 = calculate_area(10, 8)
+
+print("Area 1:", area1)
+print("Area 2:", area2)
+
