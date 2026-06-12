@@ -1,4 +1,4 @@
-
+i
 
 """
 #? Task 1
@@ -49,4 +49,27 @@ with open("employees.txt", "a") as file:
 with open("employees.txt", "r") as file:
     data = file.read()
 
+print(data)
+
+
+
+"""
+#? Task 2.1
+
+Read employees.txt
+
+Store file data in a variable
+
+Print a custom message before displaying the contents
+
+Expected Output:
+
+Employee Records:
+Kashif Javaid
+"""
+
+with open("employees.txt", "r") as file:
+    data = file.read()
+
+print("Employee Records:")
 print(data)
